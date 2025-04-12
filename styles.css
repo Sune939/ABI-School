@@ -915,3 +915,20 @@ cursor: not-allowed; /* not-allowed cursor for disabled submit button on active 
     color: #333;
     margin: 0;
 }
+.enroll-button {
+    display: inline-block;
+    background-color: #4caf50; /* Blue background */
+    color: white; /* White text */
+    padding: 10px 20px; /* Add padding */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Adjust font size */
+    font-weight: bold;
+    margin-top: 20px; /* Add spacing above the button */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.enroll-button:hover {
+    background-color: #46794a; /* Darker blue on hover */
+}
+
